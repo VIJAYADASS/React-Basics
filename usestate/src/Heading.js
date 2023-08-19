@@ -1,5 +1,4 @@
  
- 
 function Heading(props){ 
         return(
             <h1>{props.message}</h1>
@@ -10,3 +9,4 @@ function Heading(props){
 }
 
 export default Heading;
+ 
