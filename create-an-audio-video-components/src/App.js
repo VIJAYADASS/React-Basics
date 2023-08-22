@@ -1,6 +1,6 @@
 import ReactPlayer from 'react-player';
 import './App.css';
-import { flushSync } from 'react-dom';
+import BirdAudio from './BirdAudio';
 
 function App() {
   const VidUrl="https://www.youtube.com/watch?v=RF6c0Gbmtl4";
@@ -12,6 +12,9 @@ function App() {
         playing={false}
         volume={0.5} 
       />
+      <hr></hr>
+      {/* Tasks for BirdAudio */}
+    <BirdAudio />
      </div>
   );
 }
